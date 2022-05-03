@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    /* font-family: cursive; */
+    font-family: 'Alfa Slab One', cursive;
+    
+}
+#left{
+    height: 100%;
+    width: 72%;
+    background-color: #fff;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    background-color: seagreen;
+    border-bottom-right-radius: 15px;
+}
+nav ul li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding: 15px;
+    color: white;
+
+}
+nav ul li u{
+    font-size: 30px;
+}
+#text{
+    position: relative;
+    left: 160px;
+    top: 120px;
+    color:seagreen;
+
+}
+#box{
+    margin-left: 50px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    color: black;
+}
+#box1{
+    margin-left: 60px;
+}
+button{
+    margin-left: 10px;
+}
+#text h1{
+    font-size: 60px;
+}
+#text p{
+    font-size: 15px;
+}
+#left i{
+    position: relative;
+    left: 160px;
+    top: 150px;
+    margin: 20px; 
+}
+img{
+    position: absolute;
+    width: 50%;
+    height: 65%;
+    left: 580px;
+    top: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container h2{
+    background-color: seagreen;
+    position: absolute;
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+    top: 490px;
+    left: 562px;
+}
+.container a{
+    position: relative;
+    left: 25px;
+    top: 300px;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;  
+}
+
+/* #left h1{
+    font-size: 60px;
+    margin-top: 180px;
+    margin-left: 185px;
+}
+#left p{
+    margin-top: 10px;
+    margin-left: 185px;
+}
+#left i{
+    padding-left: 150px;
+    margin-top: 5px;
+    margin-left: 5px;
+
+} */
+#right{
+    height: 100%;
+    width: 28%;
+    background-color: seagreen;
+}
+nav h1{
+    font-size: 20px;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 15px;
+    padding: 5px;
+    font-weight: 50;
+    color: white;
+}
+nav i{
+    color: white;
+    margin-left: 50px;
+    margin-top: 15px;
+}
